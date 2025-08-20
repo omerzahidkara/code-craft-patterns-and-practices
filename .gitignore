@@ -1,0 +1,19 @@
+﻿# C# / Visual Studio
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# Java / Eclipse
+.classpath
+.project
+.settings/
+bin/
+target/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
