@@ -163,3 +163,6 @@ Top Menu Enhancements & Next Steps
 
 
 It's been rewarding to see how much the Segmented Sieve boosts performance, how `Task/async` keeps the UI responsive, and how a modest, optional Focus Mode can simplify multi-window work. 
+
+![Image](https://github.com/user-attachments/assets/ac9e8f25-586f-4a1d-912b-e2dad78738ba)
+
