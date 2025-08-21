@@ -12,6 +12,8 @@ Table of Contents
 
 -   [Architecture Overview](#architecture-overview)
 
+-   [Screen Shots](#screen-shots)
+
 -   [Algorithms](#algorithms)
 
     -   [Segmented Sieve](#segmented-sieve)
@@ -39,7 +41,7 @@ Table of Contents
 Highlights
 ----------
 
--   **Segmented Sieve**: fast prime scanning at 10M--20M+ with **O(n log log n)** behavior and bounded memory.
+-   **Segmented Sieve**: fast prime scanning at billion level with **O(n log log n)** behavior and bounded memory.
 
 -   **Task/async**: long work without freezing the UI; progress reporting and cancellation.
 
@@ -49,6 +51,8 @@ Highlights
 
 -   **Focus Mode**: optional---when enabled, the active window minimizes others; on close, the previously active window comes to front. Default is **off**.
 
+Architecture Overview
+---------------------
 
 WPF UI (Views)
 
@@ -70,6 +74,20 @@ Core / Infra
 
    └─ WindowManager (optional focus behavior; default disabled)
 
+Screen Shots
+------------
+- Processing until reach to 2 billion, it can take 25-35 seconds up to your casual PC. This process has 2000 segments and you can examine in the main window with scrolling down. If you reconfigure the segment size like 100 million, it take longer time (it added about 10 seconds at my pc) and has only 20 segments.
+  
+<img width="745" height="552" alt="Image" src="https://github.com/user-attachments/assets/b0f17a89-2794-44b7-830f-c3daebe20419" />
+
+<img width="746" height="552" alt="Image" src="https://github.com/user-attachments/assets/308ac993-65cc-456f-8be2-a60760b5a077" />
+
+- You can activate the 'focus mode' from the settings. It makes active to the only window which you selected the last.
+<img width="744" height="552" alt="Image" src="https://github.com/user-attachments/assets/88871bdb-1c23-4a50-9e3b-cd12e777132f" />
+
+- I searched primes above and under from the 500 clicking to Ara(Search in TR) button.
+<img width="625" height="553" alt="Image" src="https://github.com/user-attachments/assets/ec8fa330-0b06-468b-b3e0-0c3f9eb7b17a" />
+  
 Sequence Diagrams
 -----------------
 <img width="1108" height="794" alt="Image" src="https://github.com/user-attachments/assets/90c708e8-1f8d-4db3-be9e-e90fe8813765" />
