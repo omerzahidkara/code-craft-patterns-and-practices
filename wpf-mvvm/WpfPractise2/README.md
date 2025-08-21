@@ -28,13 +28,12 @@ Table of Contents
 
     -   [Focus Mode](#focus-mode)
 
--   [Sequence Diagrams (paste into sequencediagramorg)](#sequence-diagrams-paste-into-sequencediagramorg)
+-   [Sequence Diagrams](#sequence-diagrams)
 
 -   [Running the App](#running-the-app)
 
 -   [Top Menu Enhancements & Next Steps](#top-menu-enhancements--next-steps)
 
--   [License](#license)
 
 
 Highlights
@@ -71,6 +70,13 @@ Core / Infra
 
    └─ WindowManager (optional focus behavior; default disabled)
 
+Sequence Diagrams
+-----------------
+<img width="1108" height="794" alt="Image" src="https://github.com/user-attachments/assets/90c708e8-1f8d-4db3-be9e-e90fe8813765" />
+
+<img width="2470" height="997" alt="Image" src="https://github.com/user-attachments/assets/e403957e-5e3f-419b-a3f9-8f8b97fc350f" />
+
+<img width="2119" height="773" alt="Image" src="https://github.com/user-attachments/assets/e2d09ae3-d36e-411d-8a90-9ead8ae1c935" />
 
 Algorithms
 ----------
