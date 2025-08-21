@@ -12,7 +12,7 @@ Table of Contents
 
 -   [Architecture Overview](#architecture-overview)
 
--   [Screen Shots](#screen-shots)
+-   [Screenshots](#screenshots)
 
 -   [Algorithms](#algorithms)
 
@@ -74,7 +74,7 @@ Core / Infra
 
    └─ WindowManager (optional focus behavior; default disabled)
 
-Screen Shots
+Screenshots
 ------------
 - Processing until reach to 2 billion, it can take 25-35 seconds up to your casual PC. This process has 2000 segments and you can examine in the main window with scrolling down. If you reconfigure the segment size like 100 million, it take longer time (it added about 10 seconds at my pc) and has only 20 segments.
   
