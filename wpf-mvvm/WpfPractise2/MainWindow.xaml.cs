@@ -12,7 +12,7 @@ namespace WpfPractise2
             InitializeComponent();
             DataContext = new MainViewModel();
 
-            // ⬇️ önce bayrağı ayarla, sonra Register
+            // önce bayrağı ayarla, sonra Register
             WindowManager.Instance.FocusModeEnabled = false;
             WindowManager.Instance.Register(this);
         }

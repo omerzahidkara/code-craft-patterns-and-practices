@@ -1,11 +1,17 @@
 ﻿using System.Windows.Input;
 
+
+/// <summary>
+/// Temel ICommand uygulaması. Çalıştırma ve uygunluk kontrolü temsilcilerle tanımlanır.
+/// </summary>
+
 namespace WpfPractise2
 {
     public class RelayCommand : ICommand
     {
         private readonly Action<object?> _execute;
         private readonly Func<object?, bool>? _canExecute;
+        // WPF, CanExecute değiştikçe bu olayı dinler ve komut bağlı kontrolleri yeniden değerlendirir.
         public event EventHandler? CanExecuteChanged;
 
         public RelayCommand(Action<object?> execute, Func<object?, bool>? canExecute = null)

@@ -1,5 +1,10 @@
 ﻿using System.Windows.Input;
 
+
+/// <summary>
+/// Async/await ile uyumlu ICommand uygulaması. Çalışma sırasında yeniden girişe izin vermez.
+/// </summary>
+
 namespace WpfPractise2
 {
     public class AsyncRelayCommand : ICommand
@@ -17,8 +22,8 @@ namespace WpfPractise2
         }
 
         public bool CanExecute(object? parameter)
-            => !_isExecuting && (_canExecute?.Invoke() ?? true);
-
+            => !_isExecuting && (_canExecute?.Invoke() ?? true);// Çalışırken yeniden çağrı engellenir
+                                                                // Dış koşullar uygunsa çalıştırılabilir
         public async void Execute(object? parameter)
         {
             if (!CanExecute(parameter)) return;
