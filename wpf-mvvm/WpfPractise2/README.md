@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 
-=======
 WPF Prime Explorer --- Notes & Lessons
 ====================================
 
@@ -193,4 +191,4 @@ It's been rewarding to see how much the Segmented Sieve boosts performance, how 
 
 ![Image](https://github.com/user-attachments/assets/ac9e8f25-586f-4a1d-912b-e2dad78738ba)
 
->>>>>>> 9fd979fc298a17b744576835c35b060ebbcdeff1
+
